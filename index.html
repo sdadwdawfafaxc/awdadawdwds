@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>แนะนำตัว</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loadingScreen">
+    <div class="spinner"></div>
+  </div>
+
+  <audio id="clickSound" src="https://www.myinstants.com/media/sounds/click.mp3"></audio>
+
+  <header class="navbar">
+    <div class="logo">แนะนำตัว</div>
+    <nav>
+      <a href="#home" class="nav-link">Home</a>
+    </nav>
+  </header>
+
+  <main class="hero" id="home">
+    <section class="intro">
+      <h1>👋 ยินดีต้อนรับทุกคนเข้าสู่เว็บไซต์</h1>
+      <p>
+        ชื่อจริง : นาย ศุฐิพงศ์ เจริญรัตนาภิญโญ<br />
+        ชื่อเล่น : เจ<br />
+        อายุ : 15 ปี<br />
+        วันเกิด :  03 ตุลาคม 2552<br />
+        สัญชาติ : ไทย<br />
+        สีที่ชอบ : ดำ⚫<br />
+        งานอดิเรก : นอน<br />
+        อาชีพในฝัน : ยังไม่มี<br />
+        คติประจำใจ : ก้าวแรกได้ก็ต้องมีก้าวที่สองถ้าก้าวที่สองก้าวไม่ได้ก็แปลว่าไม่มีประโยชน์<br />
+        กำลังศึกษา : กำลังศึกษาระดับชั้นปวช.1<br />
+        สถานที่ที่ศึกษา : วิทยาลัยอาชีวศึกษานครปฐม<br />
+      </p>
+      <button class="btn-contact" onclick="playClickSound(); alert('อยู่ในช่วงพัฒนาครับ')">CONTACT</button>
+    </section>
+    <section class="profile-pic">
+      <img src="IMG_20250514_105309.png" alt="Profile" />
+    </section>
+  </main>
+
+  <footer>
+    <div style="margin-bottom: 0.5rem;">
+      <h1>ติดต่อ</h1>
+    </div>
+    <p>
+      สามารถขอเป็นเพื่อนและพูดคุยกันได้นะครับ<br /><br />
+    </p>
+    <div>
+      <a href="https://www.facebook.com/Sutipong.jr" target="_blank" class="btn-contact" style="margin:0 0.5rem;">Facebook</a>
+      <a href="https://line.me/ti/p/VLqJeczV2h" target="_blank" class="btn-contact" style="margin:0 0.5rem;">LINE</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
